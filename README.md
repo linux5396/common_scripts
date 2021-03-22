@@ -13,5 +13,8 @@ unix/linux系统下的公共脚本库，包含python、shell、go等语言，用
 │   ├── ck_proc_fd_linux.sh #检查进程打开的句柄数
 │   ├── ck_proc_name_linux.sh #检查进程名是否存在，不存在则可以指定命令启动进程
 │   └── ck_tcp_linux.py #通过tcp检查进程ip:port是否存在；可以在脚本中引入这个py脚本
+├── tools #工具包
+│   ├── backup_crontab_files.sh #备份crontab任务文件
+│   └── get_ip_from.sh #从文件中提交有效的ip地址，去重
 
 ```
