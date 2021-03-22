@@ -16,5 +16,6 @@ unix/linux系统下的公共脚本库，包含python、shell、go等语言，用
 ├── tools #工具包
 │   ├── backup_crontab_files.sh #备份crontab任务文件
 │   └── get_ip_from.sh #从文件中提交有效的ip地址，去重
+|   └── mysql_dump.sh #指定数据库名、指定输出目录，自动按照时间分区dump数据库数据，需修改脚本内的几个密码、地址等参数
 
 ```
